@@ -1,0 +1,70 @@
+mat-card-title {
+    color: #ec1c64;
+}
+
+.inputClass {
+    margin: 10px;
+    width: 46%;
+}
+
+table {
+    display: flex;
+    width: 100%;
+}
+
+td {
+    border: 1px solid red;
+}
+
+.card {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.card-contact {
+    width: 20%;
+    margin: 30px;
+    padding: 20px;
+
+    border-top: 5px solid #ec1c64;
+}
+
+.card-contact mat-card-content {
+    padding: 20px 10px;
+    margin: 0px;
+    font-size: 16px;
+}
+
+@media (max-width: 1000px) {
+    .card-contact {
+        width: 30%;
+    }
+  }
+
+@media (max-width: 623px) {
+    .inputClass {
+        margin: 10px;
+        width: 95%;
+    }
+    .card-contact {
+        width: 60%;
+    }
+  }
+
+  .cardButton {
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  button {
+    margin: 10px !important;
+    margin-right: 20px !important;
+  }
+
+  .contacts {
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
